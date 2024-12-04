@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+# **Meal_finder**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Meal_finder**! This is a practice project I built as part of a learning course offered by **Hola Mundo Academy**. The application is designed to explore recipes using the [TheMealDB API](https://www.themealdb.com/) and serves as a practical exercise in frontend development.
 
-Currently, two official plugins are available:
+While the project concept comes from the course, I have implemented it to strengthen my skills in React, TypeScript, and styling with ChakraUI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
 
-## Expanding the ESLint configuration
+- **Search for Meals**: Quickly find meals by name.  
+- **Browse Categories**: Explore meals grouped by categories or cuisines.  
+- **Detailed Meal Info**: View full recipes with instructions, ingredients, and a preview image.  
+- **Responsive UI**: Built with ChakraUI for a seamless experience across devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Tech Stack**
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend Framework**: React (with TypeScript)  
+- **Build Tool**: Vite  
+- **Styling**: ChakraUI  
+- **API**: [TheMealDB](https://www.themealdb.com/api.php)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## **Getting Started**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### **Prerequisites**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Before you begin, ensure you have the following installed:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [Node.js](https://nodejs.org/) (version X.X.X or later)  
+- npm or yarn
+
+### **Installation**
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/Meal_finder.git
+   cd Meal_finder
+
+2. Install dependencies:
+
+npm install
+# or
+yarn install
+
+4. Start the development server:
+
+    npm run dev
+    # or
+    yarn dev
+
+    Open http://localhost:5173 in your browser to view the app.
+
+Why I Built This
+
+This app was built as part of a hands-on exercise from a Hola Mundo Academy course. It has been an excellent opportunity to:
+
+    Learn how to work with external APIs to fetch and display dynamic data.
+    Practice using Vite as a modern build tool and TypeScript for type safety.
+    Design responsive and accessible user interfaces with ChakraUI.
+
+While the project isn't original and follows the course guidelines, it represents my progress and dedication to mastering web development technologies.
+Acknowledgements
+
+    Thanks to Hola Mundo Academy for the course and guidance.
+    Appreciation to TheMealDB for providing the API.
+
+Feel free to explore the project and see what I’ve learned! 😊
