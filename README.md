@@ -36,31 +36,31 @@ Before you begin, ensure you have the following installed:
    cd Meal_finder
 
 2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
 
-npm install
-# or
-yarn install
-
-4. Start the development server:
-
+3. Start the development server:
+   ```bash
     npm run dev
     # or
     yarn dev
 
-    Open http://localhost:5173 in your browser to view the app.
+4. Open http://localhost:5173 in your browser to view the app.
 
-Why I Built This
+## **Why I Built This**
 
 This app was built as part of a hands-on exercise from a Hola Mundo Academy course. It has been an excellent opportunity to:
 
-    Learn how to work with external APIs to fetch and display dynamic data.
-    Practice using Vite as a modern build tool and TypeScript for type safety.
-    Design responsive and accessible user interfaces with ChakraUI.
+ - Learn how to work with external APIs to fetch and display dynamic data.
+ - Practice using Vite as a modern build tool and TypeScript for type safety.
+ - Design responsive and accessible user interfaces with ChakraUI.
 
 While the project isn't original and follows the course guidelines, it represents my progress and dedication to mastering web development technologies.
 Acknowledgements
 
-    Thanks to Hola Mundo Academy for the course and guidance.
-    Appreciation to TheMealDB for providing the API.
+ Thanks to Hola Mundo Academy for the course and guidance.
+ Appreciation to TheMealDB for providing the API.
 
 Feel free to explore the project and see what I’ve learned! 😊
